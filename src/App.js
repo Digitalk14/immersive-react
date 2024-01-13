@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { VRButton, ARButton, XR, Controllers, Hands } from '@react-three/xr'
+import { VRButton, XR, Controllers, Hands } from '@react-three/xr'
 import { Canvas } from '@react-three/fiber'
 
 function App() {
