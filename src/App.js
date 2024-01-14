@@ -1,7 +1,10 @@
-import './App.css';
-import { VRButton, XR, Controllers, Hands } from '@react-three/xr'
+import { createRoot } from 'react-dom/client'
+import React from 'react'
+import { Controllers, Hands, VRButton, XR } from '@react-three/xr'
+import './styles.css'
 import { Canvas } from '@react-three/fiber'
 
+// Oculus Browser with #webxr-hands flag enabled
 function App() {
   return (
     <>
@@ -15,7 +18,9 @@ function App() {
         </XR>
       </Canvas>
     </>
-  );
+  )
 }
 
-export default App;
+//@ts-ignore
+const root = createRoot(document.getElementById('root'))
+root.render(<App />)
