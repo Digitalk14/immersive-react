@@ -5,18 +5,16 @@ import { Canvas } from '@react-three/fiber'
 function App() {
   return (
     <>
-    <VRButton />
-    <Canvas>
-      <XR>
-        <Controllers />
-        <Hands />
-        <mesh>
-          <boxGeometry />
-          <meshBasicMaterial color="blue" />
-        </mesh>
-      </XR>
-    </Canvas>
-  </>
+      <VRButton />
+      <Canvas>
+        <XR>
+          <ambientLight />
+          <pointLight position={[10, 10, 10]} />
+          <Controllers />
+          <Hands />
+        </XR>
+      </Canvas>
+    </>
   );
 }
 
