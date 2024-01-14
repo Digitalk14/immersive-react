@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/immersive-react/static/css/main.f855e6bc.css",
+    "main.js": "/immersive-react/static/js/main.f157f698.js",
+    "static/js/787.31104001.chunk.js": "/immersive-react/static/js/787.31104001.chunk.js",
+    "index.html": "/immersive-react/index.html",
+    "main.f855e6bc.css.map": "/immersive-react/static/css/main.f855e6bc.css.map",
+    "main.f157f698.js.map": "/immersive-react/static/js/main.f157f698.js.map",
+    "787.31104001.chunk.js.map": "/immersive-react/static/js/787.31104001.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f157f698.js"
+  ]
+}
