@@ -4,7 +4,7 @@ import { useSphere } from "@react-three/cannon";
 import { joints } from "./joints";
 import { Sphere } from "three";
 
-export const JointCollider = ({ index, hand }) => {
+export function JointCollider({ index, hand }) {
   const { gl } = useThree();
   const handObj = gl.xr.getHand(hand);
   const joint = handObj.joints[joints[index]];
@@ -20,4 +20,4 @@ export const JointCollider = ({ index, hand }) => {
       <meshBasicMaterial transparent opacity={0} attach="material" />
     </Sphere>
   );
-};
+}
